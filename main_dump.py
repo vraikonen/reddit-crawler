@@ -86,8 +86,6 @@ if __name__ == "__main__":
         # Write data
         if obj is not None:
             write_data(obj, submissions_dump_collection)
-            print(obj["author"])
-            print(obj["subreddit"])
     logging.info(
         f"Submissions processing complete. Processed lines: {file_lines:,}; Bad lines: {bad_lines:,}"
     )
