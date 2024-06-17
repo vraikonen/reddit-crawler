@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://git.sbg.ac.at/geo-social-analytics/geo-social-media/telegram-crawler">
+  <a href="https://github.com/vraikonen/reddit-crawler">
     <img src="img/icon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,14 +13,14 @@
   <p align="center">
     Offical Reddit API exists, it has a free tier (that is enough to crawl all the posts/comments in present), but it also has many drawbacks when it comes to fetching historical data. In that regard, this script utilizes existing reddit dumps (archives) to go back in time and filter the dump for the desired posts. It stores posts (submissions) and comments in the database. Then, it uses official API to crawl the filtered posts based on their ID, thus provding another updated dataset of posts and comments.
     <br />
-    <a href="https://git.sbg.ac.at/geo-social-analytics/geo-social-media/reddit-crawler"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/vraikonen/reddit-crawler"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://git.sbg.ac.at/geo-social-analytics/geo-social-media/reddit-crawler">View Demo</a>
+    <a href="https://github.com/vraikonen/reddit-crawler">View Demo</a>
     ·
-    <a href="https://git.sbg.ac.at/geo-social-analytics/geo-social-media/reddit-crawler/-/issues">Report Bug</a>
+    <a href="https://github.com/vraikonen/reddit-crawler/issues">Report Bug</a>
     ·
-    <a href="https://git.sbg.ac.at/geo-social-analytics/geo-social-media/reddit-crawler/-/issues">Request Feature</a>
+    <a href="https://github.com/vraikonen/reddit-crawler/issues">Request Feature</a>
   </p>
 </div>
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 3. Example config is provided.
 
-> **__Note:__** Config file `config/query-params.ini` has comments with guidelines on how to define a query. If you want to filter based on other query attributes, open an issue [here](https://git.sbg.ac.at/geo-social-analytics/geo-social-media/telegram-crawler/-/issues). 
+> **__Note:__** Config file `config/query-params.ini` has comments with guidelines on how to define a query. If you want to filter based on other query attributes, open an issue [here](https://github.com/vraikonen/reddit-crawler/issues). 
 
 ### Step 4: Obtain Reddit API credentials
 
@@ -143,7 +143,7 @@ Finally, after all the previous steps, you have two datasets of comments and and
 <!-- Suggestions and Issues -->
 ## Feature Requests and Bug Reports
 
-See the [open issues](https://git.sbg.ac.at/geo-social-analytics/geo-social-media/reddit-crawler/-/issues) for a full list of proposed features and known issues.
+See the [open issues](https://github.com/vraikonen/reddit-crawler/issues) for a full list of proposed features and known issues.
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
